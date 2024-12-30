@@ -1,7 +1,11 @@
-import React from 'react'
+export const metadata ={
+  title: "Guest area"
+} 
 
 export default function Account() {
   return (
-    <div>Account</div>
+    <h2 className="font-semibold text-2xl text-accent-400 mb-7">
+        Welcome, Habeeb.
+      </h2>
   )
 }
